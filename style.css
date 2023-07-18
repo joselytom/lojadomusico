@@ -1,0 +1,83 @@
+body{
+    background-image: url(fundo.png.avif) ;
+    background-size: 1000px;
+}
+h1{
+    text-align: center;
+    color: #00ffff;
+    padding:30px 30px 30px;
+     border-radius:  30px; 
+     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.829);
+    background:rgba(3, 0, 0, 0.445) ;
+    }
+    header{
+        background: rgba(3, 0, 0, 0.445);
+        border-radius: 30px;
+     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.767);}
+    section{
+        background: rgba(5, 0, 0, 0.452);
+        border-radius: 30px;
+       
+        padding: 15px;
+        margin:auto ;
+        padding: 5px;
+    }
+    
+    footer{
+        text-align: center;
+        font-size: 28px;
+        color: #034646;
+    }
+    h2{ text-align: center;
+    color: #00ffff;
+    font-size: 23pt;
+    }
+    .box1{
+        text-align: center;
+        border-radius: 60px;
+    }
+    .codeo1{
+        transition: all .5s;
+        border-radius: 50px  #eeeeee;
+    }
+    .codeo1:hover{
+        border: 10px solid #00b7ff;
+        border-radius: 50%;
+        -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+        -webkit-transform: rotateZ(-360deg) scale(1.5);
+        transform: rotateZ(-360deg) scale(1.5);
+    }
+    button {
+        padding: 10px 20px;
+        text-transform: uppercase;
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: 500;
+        color: #ffffff80;
+        text-shadow: none;
+        background: transparent;
+        box-shadow: transparent;
+        border: 0px solid #ffffff80;
+        transition: 0.5s ease;
+        user-select: none;
+      }
+      
+      #btn:hover,:focus {
+        color: #ffffff;
+        background: #00ffff;
+        border: 0px solid #00ffff;
+        text-shadow: 0 0 5px #ffffff,
+                    0 0 10px #ffffff,
+                    0 0 20px #ffffff;
+        box-shadow: 0 0 5px #00ffff,
+                    0 0 20px #00ffff,
+                    0 0 50px #00ffff,
+                    0 0 100px #00ffff;
+      }
+    h3{
+        text-align: center;
+        font-size: 20pt;
+        color: #00ffff;
+    }
+    
